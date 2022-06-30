@@ -85,7 +85,6 @@ function App() {
                 </div>
               </div>
             </div>
-          <span></span>
        <div className="flex justify-between items-center my-10 flex-wrap">
               <InfoCard theme="text-blue-500" title="Coronavirus cases" cases={countryInfo.todayCases} total={countryInfo.cases} />
               <InfoCard theme="text-green-500" title="Recovered" cases={countryInfo.todayRecovered} total={countryInfo.recovered} />
