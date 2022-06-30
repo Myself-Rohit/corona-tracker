@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import InfoCard from "./InfoCard";
 import Table from "./Table";
-import { SortedData } from "./SortedData";
+import { SortedData } from "./SortedData.js";
 
 function App() {
 
